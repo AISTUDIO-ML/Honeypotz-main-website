@@ -16,8 +16,8 @@ const ThemeButton: React.FC<ThemeButtonProps> = (props) => {
       className={`${className} ${
         bgFill
           ? "bg-secondary text-white"
-          : "text-secondary bg-white border-secondary"
-      } border-2 rounded-full px-8 h-12 semibold`}
+          : "text-secondary bg-white border-secondary border-2"
+      } rounded-full px-8 h-12 semibold`}
     >
       {content}
     </button>

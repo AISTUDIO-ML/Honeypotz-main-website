@@ -27,6 +27,8 @@ import usecase_2 from "./usecase_2.png";
 import usecase_3 from "./usecase_3.png";
 import calender from "./calender.png";
 import join_person from "./join_person.png";
+import ai_studio from "./ai_studio.png";
+import hero_image from "./hero_image.png";
 
 export {
   logo,
@@ -58,4 +60,6 @@ export {
   usecase_3,
   calender,
   join_person,
+  ai_studio,
+  hero_image,
 };

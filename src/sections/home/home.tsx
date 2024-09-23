@@ -1,48 +1,32 @@
 import { star } from "assets/icons/icons";
-import { brain } from "assets/images/images";
+import { brain, ai_studio, hero_image } from "assets/images/images";
 import { ThemeButton } from "components/components";
 
 const Home: React.FC = () => {
   return (
-    <div className="myContainer grid lg:grid-cols-2 gap-10 !my-10">
-      <div>
-        <div className="flex">
-          <div className="flex items-center bg-gray-100 text-primary px-3 py-1 rounded-full text-sm">
-            <p className="ml-2">Solution for you</p>
-          </div>
-        </div>
-        <p className="md:text-3xl text-xl mt-7">
-          Decoding Ai With <span className="text-primary">Honeypotz</span>
-        </p>
-        <p className="lg:text-5xl text-3xl font-semibold lexend mt-6">
-          <span className="text-themeOrange">Confidential AI</span> At
-        </p>
-        <p className="lg:text-5xl text-3xl font-semibold lexend mt-3">
-          The Cutting Edge
-        </p>
-        <p className="regular leading-7 mt-7 pb-2 text-sm">
-          In the world of artificial intelligence, a veil of confidentiality
-          surrounds cutting-edge technologies. Behind algorithms and machine
-          learning, a guarded labyrinth of secrets shapes AI's destiny.
-          Deciphering the silent symphony of circuitry unveils layers of
-          confidentiality, ensuring tomorrow's secrets are safeguarded within
-          closed algorithms.
-        </p>
-        <div className="mt-5 flex flex-col lg:flex-row lg:items-center gap-5">
-          <ThemeButton content="Request a demo" bgOrange />
-          <ThemeButton
-            simple
-            content={
-              <div className="flex items-center justify-center">
-                <img src={star} alt="star" />
-                <p className="ml-3">Check out the Possibilities</p>
-              </div>
-            }
-          />
-        </div>
+    <div className="myContainer !my-5">
+      <p className="text-primary font-bold text-3xl leading-[45px] md:text-5xl text-center md:leading-[75px]">
+        Revolutionizing <span className="text-secondary">Data Privacy</span> and{" "}
+        <br />
+        <span className="text-secondary">Securing AI/ML models</span>
+      </p>
+      <p className="text-center mt-5 font-medium text-lg md:text-[22px]">
+        Maintaining brand reputation and trade secret exposure.
+      </p>
+      <div className="flex justify-center mt-6">
+        <img src={ai_studio} alt="ai_studio" width={300} />
       </div>
-      <div>
-        <img src={brain} alt="home_cover" />
+      <p className="text-center mt-8 font-medium">
+        AIStudio provides advanced AI-driven solutions to detect and neutralize
+        cyber <br /> threats, ensuring your systems stay secure and your data
+        remains intact.
+      </p>
+      <div className="flex justify-center gap-5 mt-7">
+        <ThemeButton content={"Free Demo"} bgFill />
+        <ThemeButton content={"Get Started"} />
+      </div>
+      <div className="flex justify-center -mt-7">
+        <img src={hero_image} alt="hero" width={500} />
       </div>
     </div>
   );
