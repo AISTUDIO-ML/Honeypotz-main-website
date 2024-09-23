@@ -1,25 +1,43 @@
-import { useContext, useState } from "react";
+import { useState } from "react";
 import { cross_icon, menu_icon } from "assets/icons/icons";
 import { logo } from "assets/images/images";
 import { ThemeButton } from "components/components";
 import "./navbar.css";
-import Context from "context/context";
+
+const links = [
+  {
+    name: "Enterprice",
+    href: "/#",
+  },
+  {
+    name: "Solutions",
+    href: "#solutions",
+  },
+  {
+    name: "Company",
+    href: "#company",
+  },
+  {
+    name: "AIOPS",
+    href: "#aiops",
+  },
+  {
+    name: "Confidential Computing",
+    href: "#confidential_computing",
+  },
+  {
+    name: "Blog",
+    href: "#blog",
+  },
+];
 
 const MobNavBar: React.FC = () => {
   const [showOptions, setShowOptions] = useState("headerClose");
-  const active = useContext(Context);
-  const handleOptions = (e: any) => {
+  const handleOptions = () => {
     if (showOptions === "headerClose") {
       setShowOptions("headerOpen");
     } else {
       setShowOptions("headerClose");
-    }
-    if (e) {
-      if (e.target.href?.split("#")[1]) {
-        active?.setActive(e.target.href?.split("#")[1]);
-      } else {
-        active?.setActive("");
-      }
     }
   };
   return (
@@ -29,7 +47,7 @@ const MobNavBar: React.FC = () => {
           <img alt="logo" src={logo} width={130} />
         </a>
         <img
-          onClick={() => handleOptions("")}
+          onClick={handleOptions}
           alt="menu_icon"
           src={showOptions === "headerClose" ? menu_icon : cross_icon}
           width={25}
@@ -41,51 +59,16 @@ const MobNavBar: React.FC = () => {
       >
         <div>
           <div className="gap-5 flex flex-col items-center">
-            <a
-              href="/#"
-              onClick={handleOptions}
-              className={`py-1 border-b-2 ${
-                !active?.active ? "border-themeOrange" : "border-white"
-              }`}
-            >
-              Home
-            </a>
-            <a
-              href="#features"
-              onClick={handleOptions}
-              className={`py-1 border-b-2 ${
-                active?.active === "features"
-                  ? "border-themeOrange"
-                  : "border-white"
-              }`}
-            >
-              Features
-            </a>
-            <a
-              href="#usecases"
-              onClick={handleOptions}
-              className={`py-1 border-b-2 ${
-                active?.active === "usecases"
-                  ? "border-themeOrange"
-                  : "border-white"
-              }`}
-            >
-              Use Cases
-            </a>
-            <a
-              href="#whyus"
-              onClick={handleOptions}
-              className={`py-1 border-b-2 ${
-                active?.active === "whyus"
-                  ? "border-themeOrange"
-                  : "border-white"
-              }`}
-            >
-              Why use
-            </a>
+            {links.map((link, index) => {
+              return (
+                <a key={index} href={link.href} className="py-1 font-bold">
+                  {link.name}
+                </a>
+              );
+            })}
           </div>
           <div className="flex flex-col justify-center">
-            <ThemeButton content="Free Demo" className="mt-5" />
+            <ThemeButton bgFill content="Try for Free" className="mt-5" />
           </div>
         </div>
       </div>
@@ -94,7 +77,6 @@ const MobNavBar: React.FC = () => {
 };
 
 const NavBar: React.FC = () => {
-  const active = useContext(Context);
   return (
     <>
       <MobNavBar />
@@ -102,48 +84,15 @@ const NavBar: React.FC = () => {
         <a href="/#">
           <img alt="logo" src={logo} width={170} />
         </a>
-        <div className="gap-10 flex items-center">
-          <a
-            href="/#"
-            className={`py-1 border-b-2 ${
-              !active?.active ? "border-themeOrange" : "border-white"
-            }`}
-            onClick={() => active?.setActive("")}
-          >
-            Home
-          </a>
-          <a
-            href="#features"
-            className={`py-1 border-b-2 ${
-              active?.active === "features"
-                ? "border-themeOrange"
-                : "border-white"
-            }`}
-            onClick={() => active?.setActive("features")}
-          >
-            Features
-          </a>
-          <a
-            href="#usecases"
-            className={`py-1 border-b-2 ${
-              active?.active === "usecases"
-                ? "border-themeOrange"
-                : "border-white"
-            }`}
-            onClick={() => active?.setActive("usecases")}
-          >
-            Use Cases
-          </a>
-          <a
-            href="#whyus"
-            className={`py-1 border-b-2 ${
-              active?.active === "whyus" ? "border-themeOrange" : "border-white"
-            }`}
-            onClick={() => active?.setActive("whyus")}
-          >
-            Why use
-          </a>
-          <ThemeButton content="Free Demo" />
+        <div className="gap-7 flex items-center">
+          {links.map((link, index) => {
+            return (
+              <a key={index} href={link.href} className="py-1 font-bold">
+                {link.name}
+              </a>
+            );
+          })}
+          <ThemeButton bgFill content="Try for Free" />
         </div>
       </div>
     </>

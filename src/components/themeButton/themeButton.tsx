@@ -15,15 +15,9 @@ const ThemeButton: React.FC<ThemeButtonProps> = (props) => {
       onClick={handleClick}
       className={`${className} ${
         bgFill
-          ? "bg-primary text-white"
-          : bgOrange
-          ? "bg-themeOrange text-white"
-          : simple
-          ? "bg-white border-white text-black"
-          : "bg-white text-primary"
-      } border-2 ${
-        bgOrange ? "border-themeOrange" : "border-primary"
-      } rounded-full px-8 h-12 semibold`}
+          ? "bg-secondary text-white"
+          : "text-secondary bg-white border-secondary"
+      } border-2 rounded-full px-8 h-12 semibold`}
     >
       {content}
     </button>

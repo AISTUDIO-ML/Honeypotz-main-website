@@ -15,7 +15,7 @@ function App() {
   return (
     <State>
       <TopBanner />
-      {/* <NavBar /> */}
+      <NavBar />
       {/* <Home /> */}
       {/* <Reassurance /> */}
       {/* <AuthenticateAi /> */}
