@@ -20,15 +20,62 @@ import {
 const links = [
   {
     title: "Quick Links",
-    link: ["Solutions", "Company", "Enterprice", "Blog"],
+    link: [
+      {
+        title: "Solutions",
+        href: "/",
+      },
+      {
+        title: "Company",
+        href: "https://www.honeypotz.net/",
+      },
+      {
+        title: "Enterprice",
+        href: "/",
+      },
+      {
+        title: "Blog",
+        href: "https://www.aistudio.ml/blog",
+      },
+    ],
   },
   {
     title: "Services",
-    link: ["AIOPS", "Deep Beat", "Confidential Computing", "Much more..."],
+    link: [
+      {
+        title: "AIOPS",
+        href: "/",
+      },
+      {
+        title: "Deep Beat",
+        href: "/",
+      },
+      {
+        title: "Confidential Computing",
+        href: "/",
+      },
+      {
+        title: "Much more...",
+        href: "/",
+      },
+    ],
   },
   {
     title: "Policies",
-    link: ["Terms & conditions", "Privacy Policies"],
+    link: [
+      {
+        title: "Terms & conditions",
+        href: "https://app.termly.io/document/terms-of-use-for-saas/27e6cc45-1962-43c3-a37f-6f15d02ba5a9",
+      },
+      {
+        title: "Privacy Policies",
+        href: "https://app.termly.io/document/privacy-policy/fec0b2f8-630e-4a48-889b-fa3e8174ced8",
+      },
+      {
+        title: "Investors",
+        href: require("../../assets/Honeypotz_Seed.pdf"),
+      },
+    ],
   },
 ];
 
@@ -66,8 +113,13 @@ const Footer: React.FC = () => {
               <p className="semibold pb-3">{link.title}</p>
               <div className="medium text-sm flex flex-col leading-9">
                 {link.link.map((item, index) => (
-                  <a key={index} href="/#" target="_blank" rel="noreferrer">
-                    {item}
+                  <a
+                    key={index}
+                    href={item.href}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    {item.title}
                   </a>
                 ))}
               </div>

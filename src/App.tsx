@@ -1,6 +1,7 @@
 import { Footer, NavBar } from "components/components";
 import State from "context/state";
 import AuthenticateAi from "sections/authenticateAi/authenticateAi";
+import CaseStudies from "sections/caseStudies/caseStudies";
 import {
   BottomBanner,
   Home,
@@ -17,10 +18,11 @@ function App() {
       <TopBanner />
       <NavBar />
       <Home />
+      {/* <UseCases /> */}
       {/* <Reassurance /> */}
       {/* <AuthenticateAi /> */}
+      {/* <CaseStudies /> */}
       {/* <WhyChoose /> */}
-      {/* <UseCases /> */}
       {/* <JoinEarly /> */}
       {/* <BottomBanner /> */}
       <Footer />

@@ -61,7 +61,7 @@ const MobNavBar: React.FC = () => {
           <div className="gap-5 flex flex-col items-center">
             {links.map((link, index) => {
               return (
-                <a key={index} href={link.href} className="py-1 font-bold">
+                <a key={index} href={link.href} className="py-1 semibold">
                   {link.name}
                 </a>
               );
@@ -87,7 +87,7 @@ const NavBar: React.FC = () => {
         <div className="gap-7 flex items-center">
           {links.map((link, index) => {
             return (
-              <a key={index} href={link.href} className="py-1 font-bold">
+              <a key={index} href={link.href} className="py-1 semibold">
                 {link.name}
               </a>
             );
