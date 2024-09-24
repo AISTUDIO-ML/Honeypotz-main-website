@@ -39,6 +39,7 @@ import gold from "./gold.png";
 import security_awards from "./security_awards.png";
 import github from "./github.png";
 import slack from "./slack.png";
+import banner_image from "./banner_image.png";
 
 export {
   logo,
@@ -82,4 +83,5 @@ export {
   security_awards,
   github,
   slack,
+  banner_image,
 };

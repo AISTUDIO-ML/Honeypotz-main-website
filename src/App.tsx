@@ -26,11 +26,7 @@ function App() {
       <CaseStudies />
       <Awards />
       <Community />
-      {/* <Reassurance /> */}
-      {/* <AuthenticateAi /> */}
-      {/* <WhyChoose /> */}
-      {/* <JoinEarly /> */}
-      {/* <BottomBanner /> */}
+      <BottomBanner />
       <Footer />
     </State>
   );
