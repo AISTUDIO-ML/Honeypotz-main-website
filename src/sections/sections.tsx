@@ -8,6 +8,7 @@ import JoinEarly from "./joinEarly/joinEarly";
 import CaseStudies from "./caseStudies/caseStudies";
 import ScalableSolutions from "./scalableSolutions/scalableSolutions";
 import Awards from "./awards/awards";
+import Community from "./community/community";
 
 export {
   TopBanner,
@@ -20,4 +21,5 @@ export {
   CaseStudies,
   ScalableSolutions,
   Awards,
+  Community,
 };

@@ -12,7 +12,7 @@ const CaseStudies: React.FC = () => {
         <div className="text-secondary bg-secondaryLight w-44 h-11 rounded-full flex items-center justify-center">
           <p>Case Studies</p>
         </div>
-        <p className="text-primary text-5xl semibold mt-5 text-center">
+        <p className="text-primary text-3xl md:text-5xl semibold mt-5 text-center">
           Real World <span className="text-secondary">Case Studies</span>
         </p>
       </div>

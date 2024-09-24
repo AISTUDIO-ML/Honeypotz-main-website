@@ -22,11 +22,11 @@ const Awards: React.FC = () => {
         <div className="text-secondary bg-secondaryLight w-44 h-11 rounded-full flex items-center justify-center">
           <p>Awards</p>
         </div>
-        <p className="text-primary text-5xl semibold mt-5 text-center">
+        <p className="text-primary text-3xl md:text-5xl semibold mt-5 text-center">
           Our Accomplishments
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-5 mt-10">
+      <div className="grid md:grid-cols-3 gap-5 mt-10">
         {awards.map((award, index) => {
           return (
             <div

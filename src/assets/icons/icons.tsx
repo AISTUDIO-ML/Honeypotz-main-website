@@ -10,6 +10,7 @@ import mail from "./mail.svg";
 import star from "./star.svg";
 import lock from "./lock.svg";
 import protect from "./protect.svg";
+import box from "./box.svg";
 
 export {
   cross_icon,
@@ -24,4 +25,5 @@ export {
   star,
   lock,
   protect,
+  box,
 };
