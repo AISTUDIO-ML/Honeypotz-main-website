@@ -21,9 +21,9 @@ function App() {
       <Home />
       <UseCases />
       <ScalableSolutions />
+      <CaseStudies />
       {/* <Reassurance /> */}
       {/* <AuthenticateAi /> */}
-      {/* <CaseStudies /> */}
       {/* <WhyChoose /> */}
       {/* <JoinEarly /> */}
       {/* <BottomBanner /> */}

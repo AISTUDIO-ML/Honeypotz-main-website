@@ -7,26 +7,19 @@ import {
 
 const CaseStudies: React.FC = () => {
   return (
-    <div id="usecases" className="myContainer !py-28">
-      <div className="flex items-center justify-center md:gap-5 gap-3">
-        <p className="text-center text-themeBlack md:text-5xl text-3xl font-bold lexend">
-          Use
-        </p>
-        <div
-          style={{
-            backgroundImage: `url(${cases_shape})`,
-          }}
-          className="backgroundOrangeShape md:w-[192px] w-[160px] md:h-[75px] h-[55px]"
-        >
-          <p className="md:text-5xl text-3xl font-bold lexend text-white">
-            Cases
-          </p>
+    <div id="usecases" className="myContainer">
+      <div className="flex flex-col items-center">
+        <div className="text-secondary bg-secondaryLight w-44 h-11 rounded-full flex items-center justify-center">
+          <p>Case Studies</p>
         </div>
+        <p className="text-primary text-5xl semibold mt-5 text-center">
+          Real World <span className="text-secondary">Case Studies</span>
+        </p>
       </div>
       <div className="grid lg:grid-cols-2 gap-10 mt-16">
         <div className="flex flex-col justify-around h-[100%]">
           <div>
-            <p className="text-lg semibold">USED CASE 1</p>
+            <p className="text-lg semibold">CASE STUDY 1</p>
             <p className="font-bold lexend md:leading-snug md:text-5xl text-2xl mt-3">
               Secure Healthcare Diagnostics
             </p>
@@ -44,32 +37,35 @@ const CaseStudies: React.FC = () => {
         <img src={usecase_2} alt="technology" />
         <div className="flex flex-col justify-around h-[100%]">
           <div>
-            <p className="text-lg semibold">USED CASE 2</p>
+            <p className="text-lg semibold">CASE STUDY 2</p>
             <p className="font-bold lexend md:leading-snug md:text-5xl text-2xl mt-3">
-              Secure Financial AI Fraud Detection
+              Quantum Armor Technology
             </p>
           </div>
           <p className="md:leading-9 opacity-70 md:text-lg text-themeBlack mt-5 lg:mt-0">
-            Confidential AI is employed in financial sectors to detect and
-            prevent fraud by analyzing transaction patterns and anomalies
-            without compromising the confidentiality of individual financial
-            information.
+            Authentic Ai revolutionizes AI security by embedding robust defenses
+            at the CPU level, providing an impregnable shield against all
+            potential threats. Safeguard your AI and ML models with unparalleled
+            protection, ensuring resilience in the face of evolving risks and
+            challenges.
           </p>
         </div>
       </div>
       <div className="grid lg:grid-cols-2 gap-10 mt-16">
         <div className="flex flex-col justify-around h-[100%]">
           <div>
-            <p className="text-lg semibold">USED CASE 3</p>
+            <p className="text-lg semibold">CASE STUDY 3</p>
             <p className="font-bold lexend md:leading-snug md:text-5xl text-2xl mt-3">
-              Confidential National Security AI
+              Border Crossings
             </p>
           </div>
           <p className="md:leading-9 opacity-70 md:text-lg text-themeBlack mt-5 lg:mt-0">
-            In the realm of national security, confidential AI is applied to
-            analyze and interpret classified data, aiding in identifying
-            potential threats while maintaining the confidentiality of sensitive
-            information to protect the country's interests.
+            Border crossings can be a daunting prospect for many travelers, with
+            lengthy queues and tedious document checks often causing delays and
+            frustration. DeepBeat ID offers a solution to this challenge. By
+            leveraging advanced biometric technology, DeepBeat ID enables
+            travelers to seamlessly cross borders without the need for
+            traditional passports or IDs.
           </p>
         </div>
         <img src={usecase_3} alt="technology" />
