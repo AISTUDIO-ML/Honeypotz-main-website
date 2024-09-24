@@ -8,6 +8,8 @@ import linkedin from "./linkedin.svg";
 import instagram from "./instagram.svg";
 import mail from "./mail.svg";
 import star from "./star.svg";
+import lock from "./lock.svg";
+import protect from "./protect.svg";
 
 export {
   cross_icon,
@@ -20,4 +22,6 @@ export {
   instagram,
   mail,
   star,
+  lock,
+  protect,
 };

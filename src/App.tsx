@@ -18,7 +18,7 @@ function App() {
       <TopBanner />
       <NavBar />
       <Home />
-      {/* <UseCases /> */}
+      <UseCases />
       {/* <Reassurance /> */}
       {/* <AuthenticateAi /> */}
       {/* <CaseStudies /> */}

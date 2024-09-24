@@ -29,6 +29,10 @@ import calender from "./calender.png";
 import join_person from "./join_person.png";
 import ai_studio from "./ai_studio.png";
 import hero_image from "./hero_image.png";
+import deap_id from "./deap_id.png";
+import finger_print from "./finger_print.png";
+import unique_image from "./unique_image.png";
+import security_group from "./security_group.png";
 
 export {
   logo,
@@ -62,4 +66,8 @@ export {
   join_person,
   ai_studio,
   hero_image,
+  deap_id,
+  finger_print,
+  unique_image,
+  security_group,
 };
