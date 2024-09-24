@@ -5,6 +5,8 @@ import WhyChoose from "./whyChoose/whyChoose";
 import BottomBanner from "./bottomBanner/bottomBanner";
 import UseCases from "./useCases/useCases";
 import JoinEarly from "./joinEarly/joinEarly";
+import CaseStudies from "./caseStudies/caseStudies";
+import ScalableSolutions from "./scalableSolutions/scalableSolutions";
 
 export {
   TopBanner,
@@ -14,4 +16,6 @@ export {
   BottomBanner,
   UseCases,
   JoinEarly,
+  CaseStudies,
+  ScalableSolutions,
 };

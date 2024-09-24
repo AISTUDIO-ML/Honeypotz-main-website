@@ -17,8 +17,8 @@ const UseCases: React.FC = () => {
         <div className="text-secondary bg-secondaryLight w-44 h-11 rounded-full flex items-center justify-center">
           <p>Use Cases</p>
         </div>
-        <div className="flex items-center gap-3 mt-5">
-          <p className="text-primary  text-3xl semibold">
+        <div className="flex flex-col md:flex-row items-center gap-3 mt-5">
+          <p className="text-primary text-center text-3xl semibold">
             Use Case In Real World With
           </p>
           <img alt="logo" src={logo} width={170} />

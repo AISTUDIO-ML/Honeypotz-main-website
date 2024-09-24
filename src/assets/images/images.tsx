@@ -33,6 +33,7 @@ import deap_id from "./deap_id.png";
 import finger_print from "./finger_print.png";
 import unique_image from "./unique_image.png";
 import security_group from "./security_group.png";
+import ai from "./ai.png";
 
 export {
   logo,
@@ -70,4 +71,5 @@ export {
   finger_print,
   unique_image,
   security_group,
+  ai,
 };

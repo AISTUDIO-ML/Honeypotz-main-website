@@ -1,7 +1,6 @@
 import { Footer, NavBar } from "components/components";
 import State from "context/state";
 import AuthenticateAi from "sections/authenticateAi/authenticateAi";
-import CaseStudies from "sections/caseStudies/caseStudies";
 import {
   BottomBanner,
   Home,
@@ -10,6 +9,8 @@ import {
   TopBanner,
   UseCases,
   WhyChoose,
+  CaseStudies,
+  ScalableSolutions,
 } from "sections/sections";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <NavBar />
       <Home />
       <UseCases />
+      <ScalableSolutions />
       {/* <Reassurance /> */}
       {/* <AuthenticateAi /> */}
       {/* <CaseStudies /> */}
