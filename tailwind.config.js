@@ -13,11 +13,6 @@ module.exports = {
           500: "#637381",
         },
         themeOrange: "#FF6B00",
-
-        // Extra colors
-        lightPink: "#FEF1E0",
-        lightBlue: "#E8E7FF",
-        themeBlack: "#01002B",
       },
     },
   },

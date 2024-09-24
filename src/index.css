@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html {
-  scroll-behavior: smooth
+  scroll-behavior: smooth;
 }
 
 @font-face {
@@ -64,14 +64,6 @@ body {
 
 .bold {
   font-family: Poppins_Bold !important;
-}
-
-.backgroundOrangeShape {
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: flex;
-  align-items: center;
-  justify-content: center
 }
 
 .myContainer {

@@ -1,9 +1,4 @@
-import {
-  cases_shape,
-  usecase_1,
-  usecase_2,
-  usecase_3,
-} from "assets/images/images";
+import { usecase_1, usecase_2, usecase_3 } from "assets/images/images";
 
 const CaseStudies: React.FC = () => {
   return (

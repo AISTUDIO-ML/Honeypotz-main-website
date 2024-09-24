@@ -1,8 +1,4 @@
 import {
-  cases_shape,
-  usecase_1,
-  usecase_2,
-  usecase_3,
   logo,
   security_group,
   deap_id,

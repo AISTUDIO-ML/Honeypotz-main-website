@@ -1,5 +1,4 @@
-import { star } from "assets/icons/icons";
-import { brain, ai_studio, hero_image } from "assets/images/images";
+import { ai_studio, hero_image } from "assets/images/images";
 import { ThemeButton } from "components/components";
 
 const Home: React.FC = () => {

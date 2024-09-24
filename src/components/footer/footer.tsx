@@ -1,17 +1,7 @@
 import {
-  facebook,
-  github,
-  instagram,
-  linkedin,
-  mail,
-} from "assets/icons/icons";
-import {
-  american,
   discover,
   honeypotz,
-  jcb,
   logo,
-  maestro,
   mastercard,
   unionpay,
   visa,

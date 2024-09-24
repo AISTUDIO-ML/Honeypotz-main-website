@@ -1,14 +1,10 @@
 import { Footer, NavBar } from "components/components";
 import State from "context/state";
-import AuthenticateAi from "sections/authenticateAi/authenticateAi";
 import {
   BottomBanner,
   Home,
-  JoinEarly,
-  Reassurance,
   TopBanner,
   UseCases,
-  WhyChoose,
   CaseStudies,
   ScalableSolutions,
   Awards,
