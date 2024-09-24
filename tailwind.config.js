@@ -10,9 +10,9 @@ module.exports = {
         themeGray: {
           200: "#f3f2ff",
         },
+        themeOrange: "#FF6B00",
 
         // Extra colors
-        themeOrange: "#FF6B00",
         lightPink: "#FEF1E0",
         lightBlue: "#E8E7FF",
         themeBlack: "#01002B",

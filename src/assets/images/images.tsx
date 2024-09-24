@@ -34,6 +34,9 @@ import finger_print from "./finger_print.png";
 import unique_image from "./unique_image.png";
 import security_group from "./security_group.png";
 import ai from "./ai.png";
+import cyber_security from "./cyber_security.png";
+import gold from "./gold.png";
+import security_awards from "./security_awards.png";
 
 export {
   logo,
@@ -72,4 +75,7 @@ export {
   unique_image,
   security_group,
   ai,
+  cyber_security,
+  gold,
+  security_awards,
 };

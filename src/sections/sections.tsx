@@ -7,6 +7,7 @@ import UseCases from "./useCases/useCases";
 import JoinEarly from "./joinEarly/joinEarly";
 import CaseStudies from "./caseStudies/caseStudies";
 import ScalableSolutions from "./scalableSolutions/scalableSolutions";
+import Awards from "./awards/awards";
 
 export {
   TopBanner,
@@ -18,4 +19,5 @@ export {
   JoinEarly,
   CaseStudies,
   ScalableSolutions,
+  Awards,
 };

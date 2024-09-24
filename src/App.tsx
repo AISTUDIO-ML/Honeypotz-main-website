@@ -11,6 +11,7 @@ import {
   WhyChoose,
   CaseStudies,
   ScalableSolutions,
+  Awards,
 } from "sections/sections";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <UseCases />
       <ScalableSolutions />
       <CaseStudies />
+      <Awards />
       {/* <Reassurance /> */}
       {/* <AuthenticateAi /> */}
       {/* <WhyChoose /> */}
