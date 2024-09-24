@@ -23,7 +23,7 @@ function App() {
       {/* <UseCases /> */}
       {/* <JoinEarly /> */}
       {/* <BottomBanner /> */}
-      {/* <Footer /> */}
+      <Footer />
     </State>
   );
 }

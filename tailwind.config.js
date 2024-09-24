@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         primary: "#1F1A5F",
         secondary: "#FF8431",
+        themeGray: {
+          200: "#f3f2ff",
+        },
 
         // Extra colors
         themeOrange: "#FF6B00",
