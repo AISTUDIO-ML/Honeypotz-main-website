@@ -9,7 +9,7 @@ interface BlogCardProps {
 
 const BlogCard: React.FC<BlogCardProps> = ({ data }) => {
   return (
-    <div className="bg-white p-5 border-2 border-secondaryLight rounded-xl">
+    <div className="bg-white p-5 border-2 border-secondaryLight rounded-xl mx-3">
       <img src={data.image} alt="img" height={"auto"} width={"100%"} />
       <div className="flex mt-5">
         <div className="bg-secondaryLight px-7 h-8 rounded-full flex items-center">

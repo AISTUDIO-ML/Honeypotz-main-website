@@ -12,7 +12,7 @@ interface ReviewCardProps {
 
 const ReviewCard: React.FC<ReviewCardProps> = ({ data }) => {
   return (
-    <div className="bg-white rounded-2xl p-5">
+    <div className="bg-white rounded-2xl p-5 mx-3">
       <div className="flex justify-between items-start">
         <div className="flex items-center gap-5">
           <div className="relative">
