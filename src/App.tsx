@@ -1,5 +1,4 @@
 import { Footer, NavBar } from "components/components";
-import State from "context/state";
 import {
   BottomBanner,
   Home,
@@ -14,7 +13,7 @@ import {
 
 function App() {
   return (
-    <State>
+    <div>
       <TopBanner />
       <NavBar />
       <Home />
@@ -26,7 +25,7 @@ function App() {
       <Testimonials />
       <BottomBanner />
       <Footer />
-    </State>
+    </div>
   );
 }
 
