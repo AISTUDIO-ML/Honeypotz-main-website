@@ -27,7 +27,7 @@ const data = [
 
 const Blogs: React.FC = () => {
   return (
-    <div className="myContainer">
+    <div id="blog" className="myContainer !pt-10">
       <div className="flex flex-col items-center">
         <div className="text-secondary bg-secondaryLight w-44 h-11 rounded-full flex items-center justify-center">
           <p>Our Blogs</p>

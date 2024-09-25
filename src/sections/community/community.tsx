@@ -21,7 +21,7 @@ const community = [
 
 const Community: React.FC = () => {
   return (
-    <div id="usecases" className="myContainer">
+    <div id="confidential_computing" className="myContainer">
       <div className="text-secondary bg-secondaryLight w-44 h-11 rounded-full flex items-center justify-center">
         <p>Community</p>
       </div>

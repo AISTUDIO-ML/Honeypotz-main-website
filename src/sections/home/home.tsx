@@ -3,7 +3,7 @@ import { ThemeButton } from "components/components";
 
 const Home: React.FC = () => {
   return (
-    <div className="myContainer !my-5">
+    <div className="myContainer !mt-5">
       <p className="text-primary font-bold text-3xl leading-[45px] md:text-5xl text-center md:leading-[75px]">
         Revolutionizing <span className="text-secondary">Data Privacy</span> and{" "}
         <br />

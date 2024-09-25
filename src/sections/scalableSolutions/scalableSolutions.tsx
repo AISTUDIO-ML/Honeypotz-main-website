@@ -2,7 +2,7 @@ import { ai } from "assets/images/images";
 
 const ScalableSolutions: React.FC = () => {
   return (
-    <div id="usecases" className="myContainer !py-16">
+    <div id="company" className="myContainer !py-16">
       <div className="flex flex-col items-center">
         <div className="text-secondary bg-secondaryLight w-44 h-11 rounded-full flex items-center justify-center">
           <p>Use Cases</p>

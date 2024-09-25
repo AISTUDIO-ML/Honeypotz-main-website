@@ -8,7 +8,7 @@ import { lock, protect } from "assets/icons/icons";
 
 const UseCases: React.FC = () => {
   return (
-    <div id="usecases" className="myContainer">
+    <div id="solutions" className="myContainer !pt-10">
       <div className="flex flex-col items-center">
         <div className="text-secondary bg-secondaryLight w-44 h-11 rounded-full flex items-center justify-center">
           <p>Use Cases</p>
