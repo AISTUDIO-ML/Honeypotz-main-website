@@ -10,6 +10,7 @@ import {
   Community,
   Testimonials,
   Blogs,
+  Subscribe,
 } from "sections/sections";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
       <Testimonials />
       <BottomBanner />
       <Blogs />
+      <Subscribe />
       <Footer />
     </div>
   );

@@ -8,6 +8,7 @@ import Awards from "./awards/awards";
 import Community from "./community/community";
 import Testimonials from "./testimonials/testimonials";
 import Blogs from "./blogs/blogs";
+import Subscribe from "./subscribe/subscribe";
 
 export {
   TopBanner,
@@ -20,4 +21,5 @@ export {
   Community,
   Testimonials,
   Blogs,
+  Subscribe,
 };

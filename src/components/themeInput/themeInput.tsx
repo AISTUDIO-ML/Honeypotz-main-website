@@ -1,15 +1,22 @@
+import { redirectUrl } from "constant/redirectUrl";
+
 interface ThemeInputProps {
   placeholder?: string;
-  type?: string;
 }
 
-const ThemeInput: React.FC<ThemeInputProps> = ({ placeholder, type }) => {
+const ThemeInput: React.FC<ThemeInputProps> = ({ placeholder }) => {
   return (
-    <input
-      className="bg-[#F4F4F4] h-14 w-full px-7 rounded-[30px] focus-visible:outline-primary"
-      type={type}
-      placeholder={placeholder}
-    />
+    <div className="bg-white h-14 w-full rounded-xl flex justify-between">
+      <input
+        className="bg-white h-14 placeholder:text-black regular w-full px-7 rounded-tl-xl rounded-bl-xl focus-visible:outline-secondary"
+        placeholder={placeholder}
+      />
+      <a href={redirectUrl} target="_blank" rel="noreferrer">
+        <button className="bg-secondary text-white rounded-tr-xl rounded-br-xl px-3 lg:px-8 h-14 semibold">
+          Subscribe
+        </button>
+      </a>
+    </div>
   );
 };
 
