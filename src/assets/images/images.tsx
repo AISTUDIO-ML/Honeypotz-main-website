@@ -22,6 +22,11 @@ import security_awards from "./security_awards.png";
 import github from "./github.png";
 import slack from "./slack.png";
 import banner_image from "./banner_image.png";
+import box from "./box.png";
+import google_g from "./google_g.png";
+import google from "./google.png";
+import profile from "./profile.png";
+import stars from "./stars.png";
 
 export {
   logo,
@@ -48,4 +53,9 @@ export {
   github,
   slack,
   banner_image,
+  box,
+  google_g,
+  google,
+  profile,
+  stars,
 };

@@ -9,6 +9,7 @@ import {
   ScalableSolutions,
   Awards,
   Community,
+  Testimonials,
 } from "sections/sections";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <CaseStudies />
       <Awards />
       <Community />
+      <Testimonials />
       <BottomBanner />
       <Footer />
     </State>
