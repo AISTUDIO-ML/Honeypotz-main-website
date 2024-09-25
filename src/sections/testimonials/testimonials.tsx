@@ -31,7 +31,7 @@ const Testimonials: React.FC = () => {
         <div className="text-secondary bg-secondaryLight w-44 h-11 rounded-full flex items-center justify-center">
           <p>Client Reviews</p>
         </div>
-        <p className="text-primary text-5xl semibold mt-6">
+        <p className="text-primary text-3xl md:text-5xl semibold mt-6">
           OUR <span className="text-secondary">TESTIMONIALS</span>
         </p>
         <p className="text-black/70 mt-6">
@@ -40,9 +40,9 @@ const Testimonials: React.FC = () => {
         </p>
       </div>
       <div className="bg-secondaryLight !py-10 rounded-3xl myContainer mt-10">
-        <div className="bg-white flex items-center justify-between rounded-2xl py-5 px-10">
+        <div className="bg-white flex flex-col lg:flex-row gap-3 lg:gap-0 items-center justify-between rounded-2xl py-5 px-10">
           <div>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center justify-center lg:justify-start gap-3">
               <img src={google} alt="google" width={84} />
               <p>Rating</p>
             </div>
@@ -54,7 +54,7 @@ const Testimonials: React.FC = () => {
           </div>
           <ThemeButton content={"Write a Review"} bgFill />
         </div>
-        <div className="mt-7 grid grid-cols-3 gap-5">
+        <div className="mt-7 grid md:grid-cols-2 lg:grid-cols-3 gap-5">
           {reviews.map((review, index) => {
             return <ReviewCard key={index} data={review} />;
           })}

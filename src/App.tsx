@@ -1,5 +1,4 @@
 import { Footer, NavBar } from "components/components";
-import Blogs from "sections/blogs/blogs";
 import {
   BottomBanner,
   Home,
@@ -10,6 +9,7 @@ import {
   Awards,
   Community,
   Testimonials,
+  Blogs,
 } from "sections/sections";
 
 function App() {
@@ -25,7 +25,7 @@ function App() {
       <Community />
       <Testimonials />
       <BottomBanner />
-      {/* <Blogs /> */}
+      <Blogs />
       <Footer />
     </div>
   );

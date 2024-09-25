@@ -7,7 +7,7 @@ const BottomBanner: React.FC = () => {
     backgroundImage: `url(${banner_mask})`,
   };
   return (
-    <div className="myContainer !py-20">
+    <div className="myContainer !pt-20">
       <div
         style={backgroundImage}
         className="flex flex-col lg:flex-row gap-5 lg:gap-0 justify-between items-center md:px-14 p-5 background shadow-xl lg:shadow-none"

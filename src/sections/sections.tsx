@@ -7,6 +7,7 @@ import ScalableSolutions from "./scalableSolutions/scalableSolutions";
 import Awards from "./awards/awards";
 import Community from "./community/community";
 import Testimonials from "./testimonials/testimonials";
+import Blogs from "./blogs/blogs";
 
 export {
   TopBanner,
@@ -18,4 +19,5 @@ export {
   Awards,
   Community,
   Testimonials,
+  Blogs,
 };

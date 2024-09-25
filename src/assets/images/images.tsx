@@ -27,6 +27,7 @@ import google_g from "./google_g.png";
 import google from "./google.png";
 import profile from "./profile.png";
 import stars from "./stars.png";
+import blogimage_1 from "./blogimage_1.png";
 
 export {
   logo,
@@ -58,4 +59,5 @@ export {
   google,
   profile,
   stars,
+  blogimage_1,
 };
