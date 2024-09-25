@@ -1,0 +1,9 @@
+const Blogs: React.FC = () => {
+  return (
+    <div className="myContainer">
+      <h1>Blogs</h1>
+    </div>
+  );
+};
+
+export default Blogs;

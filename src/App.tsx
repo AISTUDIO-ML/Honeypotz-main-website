@@ -1,4 +1,5 @@
 import { Footer, NavBar } from "components/components";
+import Blogs from "sections/blogs/blogs";
 import {
   BottomBanner,
   Home,
@@ -24,6 +25,7 @@ function App() {
       <Community />
       <Testimonials />
       <BottomBanner />
+      {/* <Blogs /> */}
       <Footer />
     </div>
   );
