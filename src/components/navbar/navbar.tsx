@@ -61,7 +61,12 @@ const MobNavBar: React.FC = () => {
           <div className="gap-5 flex flex-col items-center">
             {links.map((link, index) => {
               return (
-                <a key={index} href={link.href} className="py-1 semibold">
+                <a
+                  onClick={() => setShowOptions("headerClose")}
+                  key={index}
+                  href={link.href}
+                  className="py-1 semibold"
+                >
                   {link.name}
                 </a>
               );
