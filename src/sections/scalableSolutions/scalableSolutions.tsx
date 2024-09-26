@@ -24,7 +24,7 @@ const ScalableSolutions: React.FC = () => {
           </div>
         </div>
         <div className="hidden md:flex items-center">
-          <img src={ai} alt="ai" />
+          <img src={ai} alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI" />
         </div>
         <div className="flex flex-col gap-5">
           <div className="bg-secondaryLight rounded-full h-14 flex justify-center items-center semibold text-lg">

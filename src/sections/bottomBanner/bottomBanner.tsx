@@ -25,7 +25,7 @@ const BottomBanner: React.FC = () => {
             <ThemeButton bgFill content={"Get Started – It's Free!"} />
           </div>
         </div>
-        <img src={banner_image} alt="img" width={380} className="lg:mr-16" />
+        <img src={banner_image} alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI" width={380} className="lg:mr-16" />
       </div>
     </div>
   );

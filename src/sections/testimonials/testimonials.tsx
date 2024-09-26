@@ -86,12 +86,12 @@ const Testimonials: React.FC = () => {
           <div className="bg-white flex flex-col lg:flex-row gap-3 lg:gap-0 items-center justify-between rounded-2xl py-5 px-10">
             <div>
               <div className="flex items-center justify-center lg:justify-start gap-3">
-                <img src={google} alt="google" width={84} />
+                <img src={google} alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI" width={84} />
                 <p>Rating</p>
               </div>
               <div className="flex items-center gap-2 mt-1">
                 <p>4.9</p>
-                <img src={stars} alt="stars" width={112} />
+                <img src={stars} alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI" width={112} />
                 <p className="opacity-70 text-sm">120 reviews</p>
               </div>
             </div>

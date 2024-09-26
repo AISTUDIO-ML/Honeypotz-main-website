@@ -26,10 +26,10 @@ const CaseStudies: React.FC = () => {
             recommendations.
           </p>
         </div>
-        <img src={usecase_1} alt="technology" />
+        <img src={usecase_1} alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI" />
       </div>
       <div className="grid lg:grid-cols-2 gap-10 mt-16">
-        <img src={usecase_2} alt="technology" />
+        <img src={usecase_2} alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI" />
         <div className="flex flex-col justify-around h-[100%]">
           <div>
             <p className="text-lg semibold">CASE STUDY 2</p>
@@ -63,7 +63,7 @@ const CaseStudies: React.FC = () => {
             traditional passports or IDs.
           </p>
         </div>
-        <img src={usecase_3} alt="technology" />
+        <img src={usecase_3} alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI" />
       </div>
     </div>
   );

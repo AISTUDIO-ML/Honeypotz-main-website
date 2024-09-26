@@ -71,7 +71,7 @@ const Awards: React.FC = () => {
               key={index}
               className="flex flex-col items-center justify-between border border-themeOrange/20 rounded-3xl h-56 py-4 mx-3 mt-10"
             >
-              <img src={award.image} alt="img" />
+              <img src={award.image} alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI" />
               <p className="text-lg semibold">{award.title}</p>
             </div>
           );

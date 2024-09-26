@@ -13,7 +13,7 @@ const Home: React.FC = () => {
         Maintaining brand reputation and trade secret exposure.
       </p>
       <div className="flex justify-center mt-6">
-        <img src={ai_studio} alt="ai_studio" width={300} />
+        <img src={ai_studio} alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI" width={300} />
       </div>
       <p className="text-center mt-8 font-medium">
         AIStudio provides advanced AI-driven solutions to detect and neutralize
@@ -29,7 +29,7 @@ const Home: React.FC = () => {
         <ThemeButton content={"Get Started"} />
       </div>
       <div className="flex justify-center relative -top-7 -z-10">
-        <img src={hero_image} alt="hero" width={500} />
+        <img src={hero_image} alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI" width={500} />
       </div>
     </div>
   );

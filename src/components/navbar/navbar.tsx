@@ -44,11 +44,11 @@ const MobNavBar: React.FC = () => {
     <div className="lg:hidden z-20 sticky top-0 bg-white shadow-md">
       <div className="flex items-center justify-between myContainer">
         <a href="/#">
-          <img alt="logo" src={logo} width={130} />
+          <img alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI" src={logo} width={130} />
         </a>
         <img
           onClick={handleOptions}
-          alt="menu_icon"
+          alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
           src={showOptions === "headerClose" ? menu_icon : cross_icon}
           width={25}
           className="cursor-pointer"
@@ -87,7 +87,7 @@ const NavBar: React.FC = () => {
       <MobNavBar />
       <div className="myContainer sticky top-0 z-20 bg-white shadow-md lg:flex items-center justify-between hidden">
         <a href="/#">
-          <img alt="logo" src={logo} width={170} />
+          <img alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI" src={logo} width={170} />
         </a>
         <div className="gap-7 flex items-center">
           {links.map((link, index) => {

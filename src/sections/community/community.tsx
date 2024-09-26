@@ -6,16 +6,19 @@ const community = [
     title: "Attend an online meetup",
     description:
       "Join industry experts and peers in a live, interactive session to discuss the latest trends and solutions.",
+    href: "",
   },
   {
-    title: "Download the ebook",
+    title: "Download the Whitepaper",
     description:
       "Get valuable insights and strategies with our comprehensive guide on enhancing security and performance.",
+    href: "https://acrobat.adobe.com/id/urn:aaid:sc:US:048a12e2-0bca-4c85-8212-24418de5c004",
   },
   {
     title: "Read the docs",
     description:
       "Explore in-depth documentation to understand the full capabilities and features of our platform.",
+    href: require("../../assets/Honeypotz_Tech_deck.pdf"),
   },
 ];
 
@@ -31,8 +34,20 @@ const Community: React.FC = () => {
         </p>
         <div className="flex items-center gap-3">
           <p className="semibold mr-4">Connect with us on github and slack</p>
-          <img src={github} alt="github" width={38} />
-          <img src={slack} alt="slack" width={38} />
+          <a
+            href="https://github.com/AISTUDIO-ML/Honeypotz-main-website"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={github} alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI" width={38} />
+          </a>
+          <a
+            href="https://aistudioml.slack.com/join/shared_invite/zt-2rnp71dwg-rZXrHhPct2j3zpAW0DBBig#/shared-invite/email"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img src={slack} alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI" width={38} />
+          </a>
         </div>
       </div>
       <div className="flex flex-col md:flex-row justify-between md:items-center mt-7 gap-3 md:gap-0">
@@ -53,9 +68,16 @@ const Community: React.FC = () => {
                 <p className="lexend font-semibold">{index + 1}</p>
               </div>
               <div className="flex flex-col md:flex-row items-center gap-5 border border-themeGray-300 w-full px-5 py-3 rounded-lg md:rounded-full">
-                <img src={box} alt="box" width={50} />
+                <img src={box} alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI" width={50} />
                 <div>
-                  <p className="bold text-2xl">{item.title}</p>
+                  <a
+                    href={item.href}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="bold text-2xl hover:underline"
+                  >
+                    {item.title}
+                  </a>
                   <p className="text-themeGray-500 regular">
                     {item.description}
                   </p>
