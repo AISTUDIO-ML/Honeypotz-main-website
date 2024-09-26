@@ -76,7 +76,11 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-y-10 lg:gap-y-0 lg:grid-cols-6 gap-3">
           <div className="md:col-span-2">
             <a href="/#">
-              <img alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI" src={logo} width={170} />
+              <img
+                alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
+                src={logo}
+                width={170}
+              />
             </a>
             <p className="medium mt-5 w-full text-sm leading-7  ">
               Founded in 2024. Unlock a new era of <br /> digital security with
@@ -85,16 +89,33 @@ const Footer: React.FC = () => {
             </p>
             <div className="flex items-center gap-3 mt-8">
               <div className="bg-themeGray-200 w-12 h-7 rounded-full flex justify-center items-center">
-                <img src={visa} alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI" width={30} className="mr-1" />
+                <img
+                  src={visa}
+                  alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
+                  width={30}
+                  className="mr-1"
+                />
               </div>
               <div className="bg-themeGray-200 w-12 h-7 rounded-full flex justify-center items-center">
-                <img src={mastercard} alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI" width={25} />
+                <img
+                  src={mastercard}
+                  alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
+                  width={25}
+                />
               </div>
               <div className="bg-themeGray-200 w-12 h-7 rounded-full flex justify-center items-center">
-                <img src={discover} alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI" width={30} />
+                <img
+                  src={discover}
+                  alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
+                  width={30}
+                />
               </div>
               <div className="bg-themeGray-200 w-12 h-7 rounded-full flex justify-center items-center">
-                <img src={unionpay} alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI" width={25} />
+                <img
+                  src={unionpay}
+                  alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
+                  width={25}
+                />
               </div>
             </div>
           </div>
@@ -118,15 +139,24 @@ const Footer: React.FC = () => {
           <div>
             <p className="semibold pb-3">Contact Us</p>
             <p className="medium text-sm">
-              Hirschmattstrasse, 42 Luzern LH-6003 Switzerland and for USA a Ph.
+              8 The Green STE R Dover, DE 19901 USA
             </p>
-            <p className="medium text-sm py-4">+1 305 390 0563</p>
-            <p className="medium text-sm">Team@honeypotz.net</p>
+            <p className="medium text-sm py-4">Ph. +1 305 390 0563</p>
+            <p className="medium text-sm">
+              Hirschmattstrasse 42 Luzern, LH-6003 Switzerland
+            </p>
+            <p className="medium text-sm py-4">Ph. +41 44 585 2436</p>
+            <p className="medium text-sm">Email: Team@honeypotz.net</p>
           </div>
         </div>
         <div className="mt-12 flex items-center">
           <p className="caveat text-primary text-4xl">Made By</p>
-          <img alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI" src={honeypotz} className="ml-4" width={180} />
+          <img
+            alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
+            src={honeypotz}
+            className="ml-4"
+            width={180}
+          />
         </div>
       </div>
       <div className="bg-primary text-xs md:text-sm myContainer h-16 md:h-14 flex justify-center text-center items-center text-white">
