@@ -20,7 +20,7 @@ const links = [
         href: "https://www.honeypotz.net/",
       },
       {
-        title: "Enterprice",
+        title: "Enterprise",
         href: "/",
       },
       {

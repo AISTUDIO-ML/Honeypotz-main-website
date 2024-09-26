@@ -6,7 +6,7 @@ import "./navbar.css";
 
 const links = [
   {
-    name: "Enterprice",
+    name: "Enterprise",
     href: "/#",
   },
   {
@@ -72,7 +72,7 @@ const MobNavBar: React.FC = () => {
               );
             })}
           </div>
-          <div className="flex flex-col justify-center">
+          <div className="flex justify-center">
             <ThemeButton bgFill content="Try for Free" className="mt-5" />
           </div>
         </div>

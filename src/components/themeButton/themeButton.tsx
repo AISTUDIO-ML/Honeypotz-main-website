@@ -4,12 +4,13 @@ interface ThemeButtonProps {
   content: any;
   bgFill?: boolean;
   className?: string;
+  href?: string;
 }
 
 const ThemeButton: React.FC<ThemeButtonProps> = (props) => {
-  const { content, bgFill, className } = props;
+  const { content, bgFill, className, href } = props;
   return (
-    <a href={redirectUrl} target="_blank" rel="noreferrer">
+    <a href={href ? href : redirectUrl} target="_blank" rel="noreferrer">
       <button
         className={`${className} ${
           bgFill

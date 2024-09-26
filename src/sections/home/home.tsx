@@ -21,10 +21,14 @@ const Home: React.FC = () => {
         remains intact.
       </p>
       <div className="flex justify-center gap-5 mt-7">
-        <ThemeButton content={"Free Demo"} bgFill />
+        <ThemeButton
+          href="https://app.storylane.io/demo/gz20zcbgtrtp?embed=inline"
+          content={"Free Demo"}
+          bgFill
+        />
         <ThemeButton content={"Get Started"} />
       </div>
-      <div className="flex justify-center -mt-7">
+      <div className="flex justify-center relative -top-7 -z-10">
         <img src={hero_image} alt="hero" width={500} />
       </div>
     </div>
