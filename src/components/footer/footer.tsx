@@ -83,9 +83,9 @@ const Footer: React.FC = () => {
               />
             </a>
             <p className="medium mt-5 w-full text-sm leading-7  ">
-              Founded in 2024. Unlock a new era of <br /> digital security with
-              AIStudio – where <br /> cutting-edge AI meets effortless <br />
-              protection.
+              Developed by Honeypotz Inc founded in 2016. <br /> Unlock a new
+              era of digital security With <br /> AIstudio- where cutting-edge
+              AI meets <br /> effortless protection.
             </p>
             <div className="flex items-center gap-3 mt-8">
               <div className="bg-themeGray-200 w-12 h-7 rounded-full flex justify-center items-center">
