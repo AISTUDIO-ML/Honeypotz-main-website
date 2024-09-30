@@ -6,6 +6,13 @@ import {
   unionpay,
   visa,
 } from "assets/images/images";
+import {
+  facebook,
+  github,
+  instagram,
+  linkedin,
+  mail,
+} from "assets/icons/icons";
 
 const links = [
   {
@@ -25,7 +32,7 @@ const links = [
       },
       {
         title: "Blog",
-        href: "https://www.aistudio.ml/blog",
+        href: "https://aistudioml.blogspot.com/?m=1",
       },
     ],
   },
@@ -149,14 +156,18 @@ const Footer: React.FC = () => {
             <p className="medium text-sm">Email: Team@honeypotz.net</p>
           </div>
         </div>
-        <div className="mt-12 flex items-center">
-          <p className="caveat text-primary text-4xl">Made By</p>
-          <img
-            alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
-            src={honeypotz}
-            className="ml-4"
-            width={180}
-          />
+        <div className="md:flex items-center justify-between">
+          <div className="mt-8 flex items-center">
+            <p className="caveat text-primary text-4xl">Made By</p>
+            <img alt="honeypotz" src={honeypotz} className="ml-4" width={180} />
+          </div>
+          <div className="flex items-center gap-7 mt-8">
+            <img src={facebook} alt="vise" />
+            <img src={mail} alt="mastercard" />
+            <img src={instagram} alt="discover" />
+            <img src={linkedin} alt="american" />
+            <img src={github} alt="maestro" />
+          </div>
         </div>
       </div>
       <div className="bg-primary text-xs md:text-sm myContainer h-16 md:h-14 flex justify-center text-center items-center text-white">
