@@ -9,6 +9,7 @@ import github from "./github.svg";
 import linkedin from "./linkedin.svg";
 import mail from "./mail.svg";
 import instagram from "./instagram.svg";
+import twitter from "./twitter.svg";
 
 export {
   cross_icon,
@@ -22,4 +23,5 @@ export {
   linkedin,
   mail,
   instagram,
+  twitter,
 };

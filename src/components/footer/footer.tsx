@@ -11,7 +11,8 @@ import {
   github,
   instagram,
   linkedin,
-  mail,
+  // mail,
+  twitter,
 } from "assets/icons/icons";
 
 const links = [
@@ -162,11 +163,57 @@ const Footer: React.FC = () => {
             <img alt="honeypotz" src={honeypotz} className="ml-4" width={180} />
           </div>
           <div className="flex items-center gap-7 mt-8">
-            <img src={facebook} alt="vise" />
-            <img src={mail} alt="mastercard" />
-            <img src={instagram} alt="discover" />
-            <img src={linkedin} alt="american" />
-            <img src={github} alt="maestro" />
+            <a
+              href="https://www.facebook.com/aistudioml"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={facebook}
+                alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
+              />
+            </a>
+            {/* <img src={mail} alt="mastercard" /> */}
+            <a
+              href="https://www.instagram.com/aistudioml/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={instagram}
+                alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/honeypotz"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={linkedin}
+                alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
+              />
+            </a>
+            <a
+              href="https://github.com/AISTUDIO-ML/Honeypotz-main-website"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={github}
+                alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
+              />
+            </a>
+            <a
+              href="https://twitter.com/aistudioml"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                src={twitter}
+                alt="Confidential Computing, Data Confidentiality, Safe AI act, Safeguarding AI, Confidential AI"
+              />
+            </a>
           </div>
         </div>
       </div>
